@@ -1,10 +1,12 @@
 " python specific settings
 
-if exists("b:did_python_ftplugin")
-  finish
-endif
-let b:did_python_ftplugin = 1
+" if exists("b:did_python_plugin")
+  " finish
+" endif
+" let b:did_python_plugin = 1
+let b:did_ftplugin = 1
 
+setlocal textwidth=78
 setlocal tabstop=4
 setlocal shiftwidth=4
 setlocal softtabstop=4
